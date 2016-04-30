@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">BigDataHackathonApp</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_main">main</string>
+    <string name="title_activity_main">iPark</string>
 </resources>

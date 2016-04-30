@@ -7,26 +7,68 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.bill33.bigdatahackathonapp.MainActivity">
 
-    <EditText
-        android:id="@+id/txtInput"
-        android:layout_weight="2"
-        android:layout_width="0dp"
-        android:singleLine="true"
-        android:inputType=""
-        android:layout_height="wrap_content" />
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<TextView-->
+            <!--android:id="@+id/txtViewX"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="經度：" />-->
 
-    <Button
-        android:id="@+id/btnInput"
-        android:text="Enter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <!--<EditText-->
+            <!--android:id="@+id/txtInputX"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:inputType=""-->
+            <!--android:layout_height="wrap_content" />-->
 
-    <TextView
-        android:id="@+id/txtOutput"
-        android:layout_width="wrap_content"
+        <!--<TextView-->
+            <!--android:id="@+id/txtViewY"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="緯度：" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/txtInputY"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:inputType=""-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnSubmit"-->
+            <!--android:text="Enter"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<TextView-->
+            <!--android:id="@+id/txtOutput"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Result" />-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnOpenMap"
+            android:text="開啟地圖"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
 </LinearLayout>
